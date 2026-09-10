@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Dark, professional theme with a tech/digital-marketing edge — deep
+     near-black base (code-editor feel), light text for strong contrast,
+     and a cyan-teal accent (data/analytics feel) used sparingly. */
+  --color-bg: #0d1117;
+  --color-bg-soft: #151b23;
+  --color-surface: #1c232c;
+  --color-ink: #eef1f4;
+  --color-accent: #22d3c7;
+}
+
+@layer base {
+  :root {
+    font-family: Inter, system-ui, sans-serif;
+    color: var(--color-ink);
+    background: var(--color-bg);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  html {
+    /* Lenis drives scroll smoothing in JS — leaving the native CSS
+       smooth-scroll on here would fight it and produce the jerky,
+       "heavy" jump you get when two smoothing systems race each other. */
+    scroll-behavior: auto;
+    scroll-padding-top: 88px;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    width: 100%;
+    background: var(--color-bg);
+  }
+
+  /* Each top-level page section is a full, self-contained view height-wise,
+     but we no longer force a hard CSS scroll-snap here — combined with
+     Lenis it caused an abrupt "catch" at every section boundary. */
+  main > section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-bg);
+  }
+}
