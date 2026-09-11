@@ -68,9 +68,9 @@ function Navbar() {
             >
               {label}
               {activeSection === id ? (
-                <span className="absolute -bottom-0 left-0 h-px w-full bg-accent" />
+                <span className="absolute bottom-0 left-0 h-px w-full bg-accent" />
               ) : (
-                <span className="absolute -bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-accent/70 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                <span className="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-accent/70 transition-transform duration-300 ease-out group-hover:scale-x-100" />
               )}
             </button>
           ))}
@@ -86,12 +86,12 @@ function Navbar() {
           <span className="relative block h-3 w-4">
             <span
               className={`absolute left-0 top-0 h-px w-4 bg-current transition-transform duration-300 ${
-                open ? "translate-y-[6px] rotate-45" : ""
+                open ? "translate-y-1.5 rotate-45" : ""
               }`}
             />
             <span
               className={`absolute left-0 bottom-0 h-px w-4 bg-current transition-transform duration-300 ${
-                open ? "-translate-y-[6px] -rotate-45" : ""
+                open ? "-translate-y-1.5 -rotate-45" : ""
               }`}
             />
           </span>

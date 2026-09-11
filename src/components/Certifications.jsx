@@ -24,7 +24,7 @@ const items = [
 
 const certificatePhotos = [
   { src: "/certifications/cert-1.jpg", alt: "Sertifikat Digital Marketing BNSP" },
-  { src: "/certifications/cert-2.jpg", alt: "Sertifikat Digital Marketing Bootcamp Haltev" },
+  { src: "/certifications/cert-1.jpg", alt: "Sertifikat Digital Marketing Bootcamp Haltev" },
 ];
 
 function Certifications() {
@@ -74,7 +74,7 @@ function Certifications() {
               <div
                 key={cert.src}
                 data-reveal
-                className="aspect-[3/4] overflow-hidden rounded-2xl border border-ink/15 bg-surface"
+                className="aspect-3/4 overflow-hidden rounded-2xl border border-ink/15 bg-surface"
               >
                 <img
                   src={cert.src}
