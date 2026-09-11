@@ -4,7 +4,7 @@ import RevealHeading from "./RevealHeading";
 const roles = [
   {
     title: "Dewan Pengawas Organisasi (DPO)",
-    period: "2021 – 2025",
+    period: "2024 – 2025",
     description:
       "Mengawasi dan mengevaluasi pelaksanaan kegiatan serta kepengurusan organisasi.",
     photo: {
@@ -14,7 +14,7 @@ const roles = [
   },
   {
     title: "Staff Konsumsi",
-    period: "2021 – 2025",
+    period: "2023 – 2024",
     description:
       "Mendukung persiapan dan pelaksanaan kegiatan, termasuk membantu koordinasi anggota dan pembagian tugas untuk memenuhi kebutuhan konsumsi. Membantu mengarahkan anggota yang lebih muda serta berkoordinasi dengan anggota lain untuk memastikan kegiatan berjalan sesuai kebutuhan. Berkolaborasi dalam menangani permasalahan selama kegiatan, berdiskusi dengan ketua dan pihak terkait untuk menentukan solusi, serta membantu menerapkan hasil keputusan.",
     photo: {
@@ -24,7 +24,7 @@ const roles = [
   },
   {
     title: "Anggota Divisi Perlengkapan",
-    period: "2021 – 2025",
+    period: "2022 – 2023",
     description:
       "Mendukung persiapan dan ketersediaan perlengkapan yang dibutuhkan untuk menunjang pelaksanaan kegiatan.",
     photo: {
