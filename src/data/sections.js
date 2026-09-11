@@ -3,5 +3,6 @@ export const SECTIONS = [
   { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
   { id: "certifications", label: "Certifications" },
+  { id: "organisasi", label: "Organisasi" },
   { id: "contact", label: "Contact" },
 ];

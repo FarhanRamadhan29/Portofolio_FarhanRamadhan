@@ -60,7 +60,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="w-full bg-bg px-6 py-24 sm:px-10 lg:px-16 2xl:px-24"
+      className="w-full bg-bg-soft px-6 py-24 sm:px-10 lg:px-16 2xl:px-24"
     >
       <div className="w-full">
         <div
