@@ -29,12 +29,12 @@ const certificatePhotos = [
     label: "Sertifikat",
   },
   {
-    src: "/certifications/cert-2.jpg",
+    src: "/certifications/cert-1.jpg",
     alt: "Sertifikat Digital Marketing Bootcamp Haltev",
     label: "Sertifikat",
   },
   {
-    src: "/certifications/cert-3.jpg",
+    src: "/certifications/cert-1.jpg",
     alt: "Suasana kelas Digital Marketing Bootcamp Haltev",
     label: "Dokumentasi",
   },

@@ -80,7 +80,7 @@ function ProjectLightbox({ project, onClose }) {
   return (
     <div
       ref={overlayRef}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-md sm:p-8"
+      className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 p-4 backdrop-blur-md sm:p-8"
       onClick={(e) => {
         if (e.target === overlayRef.current) requestClose();
       }}

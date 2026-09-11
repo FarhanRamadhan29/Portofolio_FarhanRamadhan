@@ -8,7 +8,7 @@ const roles = [
     description:
       "Mengawasi dan mengevaluasi pelaksanaan kegiatan serta kepengurusan organisasi.",
     photo: {
-      src: "/organisasi/org-1.jpg",
+      src: "/organisasi/cert-1.jpg",
       alt: "Dokumentasi sebagai Dewan Pengawas Organisasi",
     },
   },
@@ -18,7 +18,7 @@ const roles = [
     description:
       "Mendukung persiapan dan pelaksanaan kegiatan, termasuk membantu koordinasi anggota dan pembagian tugas untuk memenuhi kebutuhan konsumsi. Membantu mengarahkan anggota yang lebih muda serta berkoordinasi dengan anggota lain untuk memastikan kegiatan berjalan sesuai kebutuhan. Berkolaborasi dalam menangani permasalahan selama kegiatan, berdiskusi dengan ketua dan pihak terkait untuk menentukan solusi, serta membantu menerapkan hasil keputusan.",
     photo: {
-      src: "/organisasi/org-2.jpg",
+      src: "/organisasi/cert-1.jpg",
       alt: "Dokumentasi sebagai Staff Konsumsi",
     },
   },
@@ -28,7 +28,7 @@ const roles = [
     description:
       "Mendukung persiapan dan ketersediaan perlengkapan yang dibutuhkan untuk menunjang pelaksanaan kegiatan.",
     photo: {
-      src: "/organisasi/org-3.jpg",
+      src: "/organisasi/cert-1.jpg",
       alt: "Dokumentasi sebagai Anggota Divisi Perlengkapan",
     },
   },
