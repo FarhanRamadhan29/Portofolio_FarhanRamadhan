@@ -80,14 +80,14 @@ function ProjectLightbox({ project, onClose }) {
   return (
     <div
       ref={overlayRef}
-      className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 p-4 backdrop-blur-md sm:p-8"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-md sm:p-8"
       onClick={(e) => {
         if (e.target === overlayRef.current) requestClose();
       }}
     >
       <div
         ref={panelRef}
-        className="grid max-h-[90vh] w-full max-w-5xl gap-6 overflow-y-auto rounded-2xl bg-bg-soft p-4 sm:p-6 md:grid-cols-[1.4fr_1fr] md:gap-8"
+        className="grid max-h-[92vh] w-full max-w-6xl gap-6 overflow-y-auto rounded-2xl bg-bg-soft p-4 sm:p-6 md:grid-cols-[1.7fr_1fr] md:gap-8"
         role="dialog"
         aria-modal="true"
         aria-label={project.title}

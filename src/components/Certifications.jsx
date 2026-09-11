@@ -23,9 +23,21 @@ const items = [
 ];
 
 const certificatePhotos = [
-  { src: "/certifications/cert-1.jpg", alt: "Sertifikat Digital Marketing BNSP" },
-  { src: "/certifications/cert-1.jpg", alt: "Sertifikat Digital Marketing Bootcamp Haltev" },
-  { src: "/certifications/cert-1.jpg", alt: "Suasana kelas Digital Marketing Bootcamp Haltev" },
+  {
+    src: "/certifications/cert-1.jpg",
+    alt: "Sertifikat Digital Marketing BNSP",
+    label: "Sertifikat",
+  },
+  {
+    src: "/certifications/cert-2.jpg",
+    alt: "Sertifikat Digital Marketing Bootcamp Haltev",
+    label: "Sertifikat",
+  },
+  {
+    src: "/certifications/cert-3.jpg",
+    alt: "Suasana kelas Digital Marketing Bootcamp Haltev",
+    label: "Dokumentasi",
+  },
 ];
 
 function Certifications() {
@@ -75,7 +87,7 @@ function Certifications() {
               <div
                 key={cert.src}
                 data-reveal
-                className="aspect-3/4 overflow-hidden rounded-2xl border border-ink/15 bg-surface"
+                className="relative aspect-3/4 overflow-hidden rounded-2xl border border-ink/15 bg-surface"
               >
                 <img
                   src={cert.src}
@@ -83,6 +95,15 @@ function Certifications() {
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
+                <span
+                  className={`absolute left-2 top-2 rounded-full px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.08em] backdrop-blur-sm ${
+                    cert.label === "Sertifikat"
+                      ? "bg-accent/90 text-bg"
+                      : "bg-bg/80 text-ink/85 border border-ink/15"
+                  }`}
+                >
+                  {cert.label}
+                </span>
               </div>
             ))}
           </div>
