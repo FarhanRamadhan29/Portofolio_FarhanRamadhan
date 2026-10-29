@@ -24,19 +24,14 @@ const items = [
 
 const certificatePhotos = [
   {
-    src: "/certifications/cert-1.jpg",
+    src: "/certifications/BNSP_Certification.jpeg",
     alt: "Sertifikat Digital Marketing BNSP",
     label: "Sertifikat",
   },
   {
-    src: "/certifications/cert-1.jpg",
+    src: "/certifications/DM_Certification.jpeg",
     alt: "Sertifikat Digital Marketing Bootcamp Haltev",
     label: "Sertifikat",
-  },
-  {
-    src: "/certifications/cert-1.jpg",
-    alt: "Suasana kelas Digital Marketing Bootcamp Haltev",
-    label: "Dokumentasi",
   },
 ];
 
