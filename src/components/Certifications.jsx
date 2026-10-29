@@ -24,7 +24,7 @@ const items = [
 
 const certificatePhotos = [
   {
-    src: "/certifications/BNSP_Certification.jpeg",
+    src: "/certifications/BNSP.jpeg",
     alt: "Sertifikat Digital Marketing BNSP",
     label: "Sertifikat",
   },
